@@ -39,6 +39,7 @@ export class ScannerComponent implements OnInit {
   private initScanner(): void {
     const videoElem = window.document.getElementById("videoElement") as HTMLVideoElement;
     console.log(videoElem)
+
     this._zone.runOutsideAngular(() => {
       if (videoElem) {
         this.scanner = new QrScanner(videoElem, 

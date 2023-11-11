@@ -28,9 +28,7 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": [
-              "node_modules/qr-scanner/qr-scanner.umd.min.js"
-            ]
+            "scripts": []
           },
           "configurations": {
             "production": {
