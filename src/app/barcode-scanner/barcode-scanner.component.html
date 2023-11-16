@@ -1,5 +1,11 @@
-<video #video autoplay></video>
+<ng-template [ngIf]="status === 'init'" >
+  <button (click)="onClickStart()" >Iniciar</button>
+</ng-template>
 
-<img #img src="../../assets/test2.jpg" />
+<ng-template [ngIf]="status === 'readed'" >
+  <p>{{code | async}}</p>
+</ng-template>
 
-<button (click)="changeCamera()" >camera</button>
+<div #video class="video-container" >
+  <div #scanArea class="scan-area" ></div>
+</div>

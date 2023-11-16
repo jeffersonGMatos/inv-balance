@@ -1,0 +1,17 @@
+.video-container {
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+}
+
+.scan-area {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-style: solid;
+  border-color: rgba(0,0,0, .5);
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}

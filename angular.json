@@ -28,7 +28,9 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/quagga/dist/quagga.min.js"
+            ]
           },
           "configurations": {
             "production": {
